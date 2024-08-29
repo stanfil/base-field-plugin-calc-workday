@@ -25,6 +25,8 @@ basekit.addField({
         "endTime": "End Time",
         "count": "Number of Workdays",
         "includeEndDay": "Include End Date",
+        "dayoffList": "List of Holidays",
+        "workdayList": "List of Special Workdays",
         "T": "Include",
         "F": "Do Not Include"
       },
@@ -33,6 +35,8 @@ basekit.addField({
         "endTime": "終了時間",
         "count": "営業日数",
         "includeEndDay": "終了日を含むか",
+        "dayoffList": "祝日リスト",
+        "workdayList": "特別営業日リスト",
         "T": "含む",
         "F": "含まない"
       }
