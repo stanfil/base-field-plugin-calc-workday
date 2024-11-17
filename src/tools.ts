@@ -52,7 +52,7 @@ async function fetchYear(year: number, fetch) {
 // 获取指定年份的节假日数据
 async function getHolidayData(year: number, fetch) {
 
-  if (year > 2024) {
+  if (year > 2025) {
     // 从 GitHub 获取数据
     fetchYear(year, fetch);
     fetchYear(year + 1, fetch);
@@ -138,6 +138,182 @@ export async function calculateWorkdays(startTimestamp: number, endTimestamp: nu
 
 
 const WorkDayData = {
+  2025: {
+    "$schema": "https://raw.githubusercontent.com/NateScarlet/holiday-cn/master/schema.json",
+    "$id": "https://raw.githubusercontent.com/NateScarlet/holiday-cn/master/2025.json",
+    "year": 2025,
+    "papers": [
+        "https://www.gov.cn/zhengce/zhengceku/202411/content_6986383.htm"
+    ],
+    "days": [
+        {
+            "name": "元旦",
+            "date": "2025-01-01",
+            "isOffDay": true
+        },
+        {
+            "name": "春节",
+            "date": "2025-01-26",
+            "isOffDay": false
+        },
+        {
+            "name": "春节",
+            "date": "2025-01-28",
+            "isOffDay": true
+        },
+        {
+            "name": "春节",
+            "date": "2025-01-29",
+            "isOffDay": true
+        },
+        {
+            "name": "春节",
+            "date": "2025-01-30",
+            "isOffDay": true
+        },
+        {
+            "name": "春节",
+            "date": "2025-01-31",
+            "isOffDay": true
+        },
+        {
+            "name": "春节",
+            "date": "2025-02-01",
+            "isOffDay": true
+        },
+        {
+            "name": "春节",
+            "date": "2025-02-02",
+            "isOffDay": true
+        },
+        {
+            "name": "春节",
+            "date": "2025-02-03",
+            "isOffDay": true
+        },
+        {
+            "name": "春节",
+            "date": "2025-02-04",
+            "isOffDay": true
+        },
+        {
+            "name": "春节",
+            "date": "2025-02-08",
+            "isOffDay": false
+        },
+        {
+            "name": "清明节",
+            "date": "2025-04-04",
+            "isOffDay": true
+        },
+        {
+            "name": "清明节",
+            "date": "2025-04-05",
+            "isOffDay": true
+        },
+        {
+            "name": "清明节",
+            "date": "2025-04-06",
+            "isOffDay": true
+        },
+        {
+            "name": "劳动节",
+            "date": "2025-04-27",
+            "isOffDay": false
+        },
+        {
+            "name": "劳动节",
+            "date": "2025-05-01",
+            "isOffDay": true
+        },
+        {
+            "name": "劳动节",
+            "date": "2025-05-02",
+            "isOffDay": true
+        },
+        {
+            "name": "劳动节",
+            "date": "2025-05-03",
+            "isOffDay": true
+        },
+        {
+            "name": "劳动节",
+            "date": "2025-05-04",
+            "isOffDay": true
+        },
+        {
+            "name": "劳动节",
+            "date": "2025-05-05",
+            "isOffDay": true
+        },
+        {
+            "name": "端午节",
+            "date": "2025-05-31",
+            "isOffDay": true
+        },
+        {
+            "name": "端午节",
+            "date": "2025-06-01",
+            "isOffDay": true
+        },
+        {
+            "name": "端午节",
+            "date": "2025-06-02",
+            "isOffDay": true
+        },
+        {
+            "name": "国庆节、中秋节",
+            "date": "2025-09-28",
+            "isOffDay": false
+        },
+        {
+            "name": "国庆节、中秋节",
+            "date": "2025-10-01",
+            "isOffDay": true
+        },
+        {
+            "name": "国庆节、中秋节",
+            "date": "2025-10-02",
+            "isOffDay": true
+        },
+        {
+            "name": "国庆节、中秋节",
+            "date": "2025-10-03",
+            "isOffDay": true
+        },
+        {
+            "name": "国庆节、中秋节",
+            "date": "2025-10-04",
+            "isOffDay": true
+        },
+        {
+            "name": "国庆节、中秋节",
+            "date": "2025-10-05",
+            "isOffDay": true
+        },
+        {
+            "name": "国庆节、中秋节",
+            "date": "2025-10-06",
+            "isOffDay": true
+        },
+        {
+            "name": "国庆节、中秋节",
+            "date": "2025-10-07",
+            "isOffDay": true
+        },
+        {
+            "name": "国庆节、中秋节",
+            "date": "2025-10-08",
+            "isOffDay": true
+        },
+        {
+            "name": "国庆节、中秋节",
+            "date": "2025-10-11",
+            "isOffDay": false
+        }
+    ]
+  },
+
   2024:
   {
     "$schema": "https://raw.githubusercontent.com/NateScarlet/holiday-cn/master/schema.json",
