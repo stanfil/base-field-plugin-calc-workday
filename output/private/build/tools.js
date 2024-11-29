@@ -52,7 +52,7 @@ async function fetchYear(year, fetch) {
 }
 // 获取指定年份的节假日数据
 async function getHolidayData(year, fetch) {
-    if (year > 2024) {
+    if (year > 2025) {
         // 从 GitHub 获取数据
         fetchYear(year, fetch);
         fetchYear(year + 1, fetch);
